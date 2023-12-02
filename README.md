@@ -8,4 +8,4 @@ Check out [Advent of Code 2023](https://adventofcode.com/2023/about).
 Please, don't. You're not only lying to yourself but also ruining the spirit of the game.
 
 # Why is this so over engineered?
-No idea. I felt like it.
+I paid for 8 core 16 thread, I use 16 thread.
