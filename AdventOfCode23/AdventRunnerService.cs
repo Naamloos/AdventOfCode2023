@@ -81,7 +81,7 @@ namespace AdventOfCode23
         public async Task StopAsync(CancellationToken cancellationToken)
         {
             _logger.LogInformation($"Advent Runner Service was stopped. Gathered the following outputs:");
-            foreach (var output in _outputs)
+            foreach (var output in _outputs.OrderBy(x => x.Key.Day))
             {
                 _logger.LogInformation("Day: {number} Name: {name} Output: {output}", 
                     output.Key.Day, 
